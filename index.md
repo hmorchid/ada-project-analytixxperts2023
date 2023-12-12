@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Influence of Diversity on Role Dynamics and Film Performance
-subtitle: ADD SUBTITLE
+title: Diversity in Cinema
+subtitle: The Influence of Diversity on Role Dynamics and Film Performance
 use-site-title: true
 ---
