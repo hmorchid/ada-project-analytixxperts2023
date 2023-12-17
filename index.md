@@ -18,8 +18,7 @@ By navigating in the data we will uncover the patterns, understand the impacts, 
 
 ## Let's dive into the Data
 
-First, to best perform analysis we will need to define how we will measure diversity. We already said that we will focus on the ethnicity and the gendre of the films actors but we need a quantitative tool to treat the data well. We chose to use the Simpson Diversity Index, defined as follows: $$D = 1 - \sum_{k=1}^{K} \left( \frac{n_k}{N} \right)^2$$.
-The index is calculated by assessing the likelihood that two randomly chosen individuals from a sample will not belong to the same species. A key strength of this index is that it considers not just the variety of species present but also the relative abundance of each species. This means that if we compare two scenarios:
+First, to best perform analysis we will need to define how we will measure diversity. We already said that we will focus on the ethnicity and the gendre of the films actors but we need a quantitative tool to treat the data well. We chose to use the Simpson Diversity Index, which is calculated by assessing the likelihood that two randomly chosen individuals from a sample will not belong to the same species. A key strength of this index is that it considers not just the variety of species present but also the relative abundance of each species. This means that if we compare two scenarios:
 Movie 1: 20% representation for each of 5 ethnicities.
 Movie 2: 99% representation of one ethnicity, with 100 different ethnicities comprising the remaining 1%.
-We find that **$D_1 = 0.8$** is significantly greater than **$D_2 = 0.02$**. This result is coherent as Movie 1 appears to have a more diverse cast, even though Movie 2 includes a greater number of ethnicities.
+We find that **D1 = 0.8** is significantly greater than **D2 = 0.02**. This result is coherent as Movie 1 appears to have a more diverse cast, even though Movie 2 includes a greater number of ethnicities.
