@@ -18,7 +18,7 @@ By navigating in the data we will uncover the patterns, understand the impacts, 
 
 ## Let's dive into the Data
 
-First, to best perform analysis we will need to define how we will measure diversity. We already said that we will focus on the ethnicity and the gendre of the films actors but we need a quantitative tool to treat the data well. We chose to use the Simpson Diversity Index, which is calculated by assessing the likelihood that two randomly chosen individuals from a sample will not belong to the same species. A key strength of this index is that it considers not just the variety of species present but also the relative abundance of each species. 
+First, to best perform analysis we will need to define how we will measure diversity. We already said that we will focus on the ethnicity and the gender of the films actors but we need a quantitative tool to treat the data well. We chose to use the Simpson Diversity Index, which is calculated by assessing the likelihood that two randomly chosen individuals from a sample will not belong to the same species. A key strength of this index is that it considers not just the variety of species present but also the relative abundance of each species. 
 
 This means that if we compare two scenarios:
 
