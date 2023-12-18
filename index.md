@@ -33,7 +33,7 @@ We find that **D1 = 0.8** is significantly greater than **D2 = 0.02**. This resu
 
 While we can all agree that diversity and inclusion in the broadest sense of the term have become a key issue in today's society, this was not the case even twenty years ago. The question is whether this progress can also be observed in the film industry, and the following graph shows how diversity has evolved over the years in the film industry.
 
-<iframe src="assets/diversity_over_time.html" width="1000px" height="530px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="assets/diversity_over_time.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 Well, the curve for gender diversity doesn't really show any evolution over time. There is, however, an upward trend in ethnic diversity. 
 
@@ -47,7 +47,7 @@ INSEREZ BOX OFFICE OVER TIME (INFLATION?)
 We observe a net evolution of the box office earnings over time. Since ethnic diversity also has an upward trend, can we conclude that the two are correlated? Let's see if we can simply determine their correlation statistically. 
 The following graph shows the relationship between correlation and ethnic diversity.
 
-<iframe src="assets/diversity_ethnicity_corr_boxoffice.html" width="750px" height="530px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="assets/diversity_ethnicity_corr_boxoffice.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 
 
