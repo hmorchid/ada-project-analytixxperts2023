@@ -16,7 +16,9 @@ Join us on this cinematic journey as we unravel the data story behind diversity 
 
 By navigating in the data we will uncover the patterns, understand the impacts, and discover whether the movies we love are a reflection of the diverse world we live in. Are diverse casts just a trend, or are they a key ingredient to a film's success and legacy? Let the data respond !
 
-## Let's dive into the Data
+## Let's take a first look to the Data
+
+#### What's really Diversity ?
 
 First, to best perform analysis we will need to define how we will measure diversity. We already said that we will focus on the ethnicity and the gender of the films actors but we need a quantitative tool to treat the data well. We chose to use the Simpson Diversity Index, which is calculated by assessing the likelihood that two randomly chosen individuals from a sample will not belong to the same species. A key strength of this index is that it considers not just the variety of species present but also the relative abundance of each species. 
 
@@ -26,3 +28,10 @@ This means that if we compare two scenarios:
 - Movie 2: 99% representation of one ethnicity, with 100 different ethnicities comprising the remaining 1%.
 
 We find that **D1 = 0.8** is significantly greater than **D2 = 0.02**. This result is coherent as Movie 1 appears to have a more diverse cast, even though Movie 2 includes a greater number of ethnicities.
+
+##### Diversity as a sign of progress in the film industry ?
+
+While we can all agree that diversity and inclusion in the broadest sense of the term have become a key issue in today's society, this was not the case even twenty years ago. The question is whether this progress can also be observed in the film industry, and the following graph shows how diversity has evolved over the years in the film industry.
+
+<iframe src="assets/diversity_over_time.html" width="750px" height="530px" frameborder="0" position="relative">Genre plot</iframe>
+
