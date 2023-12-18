@@ -47,7 +47,7 @@ INSEREZ BOX OFFICE OVER TIME (INFLATION?)
 We observe a net evolution of the box office earnings over time. Since ethnic diversity also has an upward trend, can we conclude that the two are correlated? Let's see if we can simply determine their correlation statistically. 
 The following graph shows the relationship between correlation and ethnic diversity.
 
-<iframe src="assets/diversity_ethnicity_corr_boxoffice.html" width="1000px" height="530px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="assets/diversity_ethnicity_corr_boxoffice.html" width="750px" height="530px" frameborder="0" position="relative">Genre plot</iframe>
 
 
 
