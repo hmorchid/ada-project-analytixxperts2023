@@ -16,7 +16,7 @@ Join us on this cinematic journey as we unravel the data story behind diversity 
 
 By navigating in the data we will uncover the patterns, understand the impacts, and discover whether the movies we love are a reflection of the diverse world we live in. Are diverse casts just a trend, or are they a key ingredient to a film's success and legacy? Let the data respond !
 
-## Let's take a first look to the Data
+## Let's take a first look at the data
 
 #### What's really Diversity ?
 
