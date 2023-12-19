@@ -45,9 +45,22 @@ To give you an initial comparison, here's a graph showing the evolution of box o
 INSEREZ BOX OFFICE OVER TIME (INFLATION?)
 
 We observe a net evolution of the box office earnings over time. Since ethnic diversity also has an upward trend, can we conclude that the two are correlated? Let's see if we can simply determine their correlation statistically. 
-The following graph shows the relationship between correlation and ethnic diversity.
+The following graph shows the relationship between correlation and ethnic diversity :
 
 <iframe src="assets/diversity_ethnicity_corr_boxoffice.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+
+The chart provides a visual representation that complements statistical findings that indicate ethnic diversity is a significant predictor of box office revenue.
+Gender diversity compared to box office revenue :
+
+<iframe src="assets/gender_corr_boxoffice.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+
+Ethnic Diversity compared to ratings :
+
+<iframe src="assets/diversity_ethnicity_corr_rating.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+
+Gender Diversity compared to ratings :
+
+<iframe src="assets/gender_corr_rating.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 
 
