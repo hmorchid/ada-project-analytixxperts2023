@@ -46,7 +46,7 @@ On the other hand, a more hopeful narrative emerges when we consider ethnic dive
 
 #### Naive analysis of the relationship between Diversity and Box Office Revenue ?
 
-* INSERER PLOT REPARTITION DES FILMS SELON BOX OFFICES (PIE CHART OU HISTOGRAMMES ?)
+<iframe src="assets/distrib_boxoffice.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 We've been looking into whether there's a link between the variety of ethnic backgrounds in a movie's cast and how much money the movie makes. To do this, we first checked out the movie's box office receipts, which tell us how well it did financially.
 We did some math and found a Pearson correlation of about 0.217 between the ethnic mix of a movie's cast and the money it made at the box office. This positive link is important because it's strong enough (the p-value is less than 0.05) to suggest that movies tend to earn more when they have a more ethnically diverse cast.
@@ -66,7 +66,7 @@ After looking at the scatter plot, it's clear that the numbers back up what we f
 
 #### What about Average Ratings ?
 
-* INSEREZ REPARTITION DES NOTES *
+<iframe src="assets/distrib_rating.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 Ethnic Diversity compared to ratings :
 
