@@ -29,7 +29,7 @@ This means that if we compare two scenarios:
 
 We find that **D1 = 0.8** is significantly greater than **D2 = 0.02**. This result is coherent as Movie 1 appears to have a more diverse cast, even though Movie 2 includes a greater number of ethnicities.
 
-* INSERER PIE CHARTS AVEC LA PART DES DIFFERENTS NIVEAU DE DIVERSITE ETHNIQUE ET GENDER DANS LE DATASET *
+<iframe src="assets/distrib_diversity.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 #### Diversity as a sign of progress in the film industry ?
 
