@@ -29,7 +29,11 @@ This means that if we compare two scenarios:
 
 We find that **D1 = 0.8** is significantly greater than **D2 = 0.02**. This result is coherent as Movie 1 appears to have a more diverse cast, even though Movie 2 includes a greater number of ethnicities.
 
+We utilized this index to analyze the films in our dataset, leading to the creation of the pie chart displayed below:
+
 <iframe src="assets/distrib_diversity_2.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+
+We observe that a high majority of the films have a very high gender diversity. For the ethnic diversity, the distribution is more nuanced but we can say that the majority of the films have a good ethnic diversity.
 
 #### Diversity as a sign of progress in the film industry ?
 
