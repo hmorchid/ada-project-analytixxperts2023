@@ -2,9 +2,9 @@
 layout: page
 title: Diversity in Cinema
 subtitle: The Influence of Diversity on Role Dynamics and Film Performance
-cover-img: /assets/img/red-movie-theater-seats-with-curtains-background_1017-38388.jpg
-thumbnail-img: /assets/img/red-movie-theater-seats-with-curtains-background_1017-38388.jpg
-share-img: /assets/img/red-movie-theater-seats-with-curtains-background_1017-38388.jpg
+cover-img: /assets/img/front_image.jpg
+thumbnail-img: /assets/img/front_image.jpg
+share-img: /assets/img/front_image.jpg
 use-site-title: true
 ---
 
