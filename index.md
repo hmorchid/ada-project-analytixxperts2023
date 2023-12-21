@@ -51,7 +51,9 @@ Upon inspecting the graph, we're immediately struck by a clear and undeniable tr
 This observed synchrony between the rise in box office earnings and the increase in ethnic diversity leads us to a compelling line of inquiry: might there be a correlation between these two variables? The possibility that a more diverse cast could resonate with a broader audience and thereby enhance box office performance is an intriguing hypothesis.
 To probe this relationship further, we must venture beyond mere visual comparison and engage in a statistical examination. By employing correlation analysis, we aim to uncover any statistical significance that might exist between the growing diversity in film and the ascending box office earnings. This method will allow us to understand not just the existence but also the strength of any potential correlation, providing us with a more grounded understanding of the interplay between these two facets of the cinematic world.
 
-#### What do the statistics say?
+#### What do the statistics say for Box Office Revenue ?
+
+* INSERER PLOT REPARTITION DES FILMS SELON BOX OFFICES (PIE CHART OU HISTOGRAMMES ?)
 
 We've been looking into whether there's a link between the variety of ethnic backgrounds in a movie's cast and how much money the movie makes. To do this, we first checked out the movie's box office receipts, which tell us how well it did financially.
 
@@ -72,6 +74,10 @@ To make this clearer, we'll create a regression graph like we did for the ethnic
 After looking at the scatter plot, it's clear that the numbers back up what we found in our analysis: the mix of genders in a movie's cast doesn't really have a noticeable link with how much money the movie makes. So, while gender diversity is important for many reasons, it doesn't seem to have a big impact on a movie's box office revenue based on this data.
 
 <iframe src="assets/gender_corr_boxoffice.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+
+#### What about Average Ratings ?
+
+* INSEREZ REPARTITION DES NOTES *
 
 Ethnic Diversity compared to ratings :
 
