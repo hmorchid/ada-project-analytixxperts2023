@@ -39,7 +39,7 @@ We observe that a high majority of the films have a very high gender diversity. 
 
 In today's world, diversity and inclusion are key values, showing our hope for a fairer and more inclusive society. This is a big change from just 20 years ago when these issues were often ignored. As society has changed, we're looking at different areas, like the movie industry, to see if they've kept up with these changes.
 
-<iframe src="assets/diversity_over_time.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="assets/diversity_over_time.html" width="750px" height="750px" frameborder="0" position="relative">Genre plot</iframe>
 
 Upon examining the data, we notice a particular trend regarding gender diversity. The curve, representing the evolution of gender representation, unfortunately, does not indicate significant progress. This stagnation suggests that while conversations around gender equality have become more mainstream, the translation of these discussions into tangible change within the film industry has been limited.
 On the other hand, a more hopeful narrative emerges when we consider ethnic diversity. Here, the graph depicts an upward trajectory, indicating a gradual but apparent increase in the representation of various ethnicities on screen. This trend reflects a growing acknowledgment within the industry of the importance of racial and cultural representation, and while there's still much ground to cover, it suggests a positive direction towards inclusivity.
