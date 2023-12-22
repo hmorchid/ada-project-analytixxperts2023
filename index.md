@@ -26,7 +26,7 @@ This means that if we compare two scenarios:
 We find that **D1 = 0.8** is significantly greater than **D2 = 0.02**. This result is coherent as Movie 1 appears to have a more diverse cast, even though Movie 2 includes a greater number of ethnicities.
 
 <details>
-  <summary> Mathematics for nerds :nerd_face:</summary>
+  <summary> Mathematics for nerds 🤓</summary>
   
   The Simpson Diversity Index is calculated as follows :
 
@@ -116,7 +116,7 @@ Usually, a naive analysis might miss other factors that can change the results, 
 In the graph below, we noticed that the number of languages in movies is fairly even, but the release years are quite uneven between the control and treatment groups. To fix this, we used propensity score matching to create a more balanced dataset considering these factors.
 
 <details>
-  <summary> Mathematics for nerds :nerd_face:</summary>
+  <summary> Mathematics for nerds 🤓</summary>
   
   In order to keep enough samples for a meaningful analysis, the matching based on genre was determined using the following formula:
 
@@ -246,4 +246,4 @@ This is where we conclude our study and report our final results and insights to
 
 It is very important to note that these analyses were performed mostly with the information given and already available in the [CMU movie dataset](https://www.cs.cmu.edu/~ark/personas/). A more robust explanation of the effects we found would require access to other relevant information that could be defined as confounders in our analyses. A few of them would be movie budgets, inflation rates, and more complete movie casts.
 
-> :memo: **Pro tip for producers :** A diverse cast is like 3D glasses for your box office numbers. It makes them pop !!
+> **Pro tip for producers :** A diverse cast is like 3D glasses for your box office numbers. It makes them pop !!
