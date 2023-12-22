@@ -44,7 +44,7 @@ In today's world, diversity and inclusion are key values, showing our hope for a
 Upon examining the data, we notice a particular trend regarding gender diversity. The curve, representing the evolution of gender representation, unfortunately, does not indicate significant progress. This stagnation suggests that while conversations around gender equality have become more mainstream, the translation of these discussions into tangible change within the film industry has been limited.
 On the other hand, a more hopeful narrative emerges when we consider ethnic diversity. Here, the graph depicts an upward trajectory, indicating a gradual but apparent increase in the representation of various ethnicities on screen. This trend reflects a growing acknowledgment within the industry of the importance of racial and cultural representation, and while there's still much ground to cover, it suggests a positive direction towards inclusivity.
 
-#### Naive analysis of the relationship between Diversity and Box Office Revenue 
+#### Naive analysis of the relationship between Ethnic Diversity and Box Office Revenue 
 
 Before starting the analysis we want to emphasize the diversity of films in our study. We can see on the following plot that we have indie films having less than $20M in box office revenue as well as big films. This ensures our insights reflect the entire film industry, not just a single segment.
 
@@ -58,6 +58,8 @@ To dig deeper into how the ethnic mix of the cast affects a movie's earnings, we
 <iframe src="assets/diversity_ethnicity_corr_boxoffice.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 Our findings do show a real link between a film’s cast ethnic diversity and its box office success. But we also found that while ethnic diversity is part of the story, it doesn't tell us everything about why some movies make more money than others. There are likely other factors at play too.
+
+#### Naive analysis of the relationship between Gender Diversity and Box Office Revenue 
 
 We also took a look at the gender diversity influence. After the stastics test we found a very low Pearson correlation which tell us there's basically no straight-line relationship between the two. Having a more balanced mix of genders in the cast doesn't seem to have a clear link with the movie's financial success.
 As for the ethnic diversity analysis we did a regression analysis to confirm what we found resulting in the following graph :  
@@ -88,7 +90,15 @@ In conclusion, based on our naive analysis, we can say that having a more divers
 
 In this section, we're going to look closely at how movie performance is related to ethnic and gender diversity. Usually, a naive analysis might miss other factors that can change the results, like the number of languages a movie is translated into, its release year, and genre. To avoid this, we'll use a method called propensity score matching. This helps us compare movies with diverse casts (our treatment group) to those with less diversity (our control group) in a fair way. We'll make sure other factors are balanced between these groups. We'll then examine how movie ratings and box office earnings are connected to diversity, breaking down our findings for each type of diversity we study.
 
-#### 
+#### Propensity score matching
+
+In the graph below, we notice that the number of languages in movies is fairly even, but the release years are quite uneven between the control and treatment groups. To fix this, we use propensity score matching to create a more balanced dataset considering these factors.
+
+<iframe src="assets/before_after_matching.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+
+When you click the "After" button, you'll see the results post-matching. Now, the release years are more evenly spread between the control and treatment groups. This means these factors won't really affect our study of performance and diversity.
+
+#### Impact of Ethnic Diversity on Box Office
 
 ## Causal Analysis accross time periods
 
