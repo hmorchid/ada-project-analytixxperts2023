@@ -75,7 +75,7 @@ The other metric we chose to evaluate performance is the average rating of a mov
 <iframe src="assets/distrib_rating.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 As we did for the box office revenue we will conduct some first analysis to try to see if there is a correlation between ethnic and gender diversity and the film’s average rating.
-We resumed our results in the following table :
+We summarized our results in the following table :
 
 | | Pearson correlation | Linear regression |
 |-------|--------------------------|---------|
