@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Diversity in Cinema
-subtitle: The Influence of Diverse Casting on a Film's Performance
+title: The Influence of Diverse Casting on a Film's Performance
 cover-img: /assets/fond_ada_site.png
 thumbnail-img: /assets/fond_ada_site.png
 share-img: /assets/fond_ada_site.png
