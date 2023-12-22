@@ -15,9 +15,7 @@ Join us on this journey as we unravel the data story behind the impact diversity
 
 By navigating in the data we will uncover the patterns, understand the impacts, and discover whether the movies we love are a reflection of the diverse world we live in. Are diverse casts just a trend, or are they a key ingredient to a film's success ? Let the data respond !
 
-## Let's do a first naive analysis
-
-#### What's really Diversity ?
+#### Wait .. what really is Diversity ?
 
 First, to best perform analysis we will need to define how we will measure diversity. We already said that we will focus on the ethnicity and the gender of the films actors but we need a quantitative tool to treat the data well. We chose to use the Simpson Diversity Index, which is calculated by assessing the likelihood that two randomly chosen individuals from a sample will not belong to the same species. A key strength of this index is that it considers not just the variety of species present but also the relative abundance of each species. 
 
@@ -32,7 +30,7 @@ We used this index to analyze the films in our dataset, leading to the creation 
 
 <iframe src="assets/distrib_diversity_3.html" width="800px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
-We observe for Ethnic Diversity that :
+We observed for Ethnic Diversity that :
 * A considerable number of local movies feature actors exclusively from the same country or ethnicity, which accounts for the noticeable instances of a 0 diversity score.
 * This distribution is derived using the Simpson diversity index, which considers two actors diverse if they do not have the exact same label. Given the dataset's extreme imbalance in terms of ethnicities, it's expected that the distribution won't be smooth. However, it's noteworthy that the frequency appears lower at the extremes and higher around the 0.5 mark.
 
@@ -48,6 +46,8 @@ In today's world, diversity and inclusion are key values. This is a big change f
 
 Upon examining the data, we noticed a particular trend regarding gender diversity. The curve, representing the evolution of gender representation, unfortunately, does not indicate significant progress. This stagnation suggests that while conversations around gender equality have become more mainstream, the translation of these discussions into tangible change within the film industry has been limited.
 On the other hand, a more hopeful narrative emerged when we considered ethnic diversity. Here, the graph depicts an upward trajectory, indicating a gradual but apparent increase in the representation of various ethnicities on screen. This trend reflects a growing acknowledgment within the industry of the importance of racial and cultural representation, and while there's still much ground to cover, it suggests a positive direction towards inclusivity.
+
+## Now let's be naive for a moment
 
 #### Naive analysis of the relationship between Ethnic Diversity and Box Office Revenue 
 
