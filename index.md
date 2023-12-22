@@ -169,13 +169,13 @@ As before we present you the distribution of the two groups — Control (Low Div
 
 <script>
   function swapImage4() {
-    var selectedImage = document.getElementById("period-selector").value;
+    var selectedImage = document.getElementById("period-selector2").value;
     var image = document.getElementById("density_gender_box_periods_img");
     image.src = selectedImage;
   }
 </script>
 
-<select id="period-selector" onchange="swapImage4()" style="margin: 8px 0; width: 20%;">
+<select id="period-selector2" onchange="swapImage4()" style="margin: 8px 0; width: 20%;">
   <option value="assets/gender_box_period_0.png">1915-1953</option>
   <option value="assets/gender_box_period_1.png">1953-1973</option>
   <option value="assets/gender_box_period_2.png">1973-1985</option>
