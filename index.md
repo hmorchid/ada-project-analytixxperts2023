@@ -37,7 +37,7 @@ We observe that a high majority of the films have a very high gender diversity. 
 
 #### Diversity as a sign of progress in the film industry ?
 
-In our modern society, the principles of diversity and inclusion have emerged as central pillars, reflecting our collective aspiration for a more equitable and representative world. This shift in values, while widely acknowledged and embraced today, marks a stark contrast to the landscape merely two decades ago, where such topics were often sidelined. This evolution of societal norms prompts us to examine various sectors, including the industry of cinema, to understand how they have adapted to these changing tides. The pertinent question we face is whether the film industry, known for its power to shape culture and perception, has mirrored this broader societal progress in embracing diversity. The accompanying graph offers a visual narrative of this journey, charting the course of diversity within the film industry over the years. 
+In today's world, diversity and inclusion are key values, showing our hope for a fairer and more inclusive society. This is a big change from just 20 years ago when these issues were often ignored. As society has changed, we're looking at different areas, like the movie industry, to see if they've kept up with these changes.
 
 <iframe src="assets/diversity_over_time.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
