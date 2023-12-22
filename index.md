@@ -2,17 +2,17 @@
 layout: page
 title: Diversity in Cinema
 subtitle: The Influence of Diverse Casting on a Film's Performance
-cover-img: /assets/img/front_image.jpg
-thumbnail-img: /assets/img/front_image.jpg
-share-img: /assets/img/front_image.jpg
+cover-img: /assets/img/red-movie-theater-seats-with-curtains-background_1017-38388.jpg
+thumbnail-img: /assets/img/red-movie-theater-seats-with-curtains-background_1017-38388.jpg
+share-img: /assets/img/red-movie-theater-seats-with-curtains-background_1017-38388.jpg
 use-site-title: true
 ---
 
-The topic of diversity is gaining increasing attention nowadays. Many studies, like [this McKinsey & Company report](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters), affirms that diversity is not just a buzzword but a pivotal aspect of business success. We would like to assess whether this phenomenon is also applicable to the movie industry.
-Consider the groundbreaking success of movies like Black Panther and Barbie. These films not only shattered box office records but also marked a significant cultural moment by celebrating diversity in ethnicity and gender, respectively. Their success prompts a deeper reflexion: Is there a tangible link between a film's performance, i.e its box office earnings and public ratings, and its cast's diversity ?
+The topic of diversity is gaining increasing attention nowadays. Many studies, like [this McKinsey & Company report](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters), affirm that diversity is not just a buzzword but a pivotal aspect of business success. We would like to assess whether this phenomenon is also applicable to the movie industry.
+Consider the groundbreaking success of movies like Black Panther and Barbie. These films not only shattered box office records but also marked a significant cultural moment by celebrating diversity in ethnicity and gender, respectively. Their success prompts a deeper reflection: Is there a tangible link between a film's performance, i.e its box office earnings and public ratings, and its cast's diversity ?
 
 ## Introduction
-Join us on this cinematic journey as we unravel the data story behind diversity in films. We will dissect this relationship by analyzing a variety of films across genres, from blockbuster hits to indie gems, our research will shed light on whether films with diverse casts resonate more profoundly with audiences and critics alike. 
+Join us on this journey as we unravel the data story behind the impact diversity in films' success. We will dissect this relationship by analyzing a variety of films across genres, from blockbuster hits to indie gems, our research will shed light on whether films with diverse casts resonate more profoundly with audiences and critics alike. 
 
 By navigating in the data we will uncover the patterns, understand the impacts, and discover whether the movies we love are a reflection of the diverse world we live in. Are diverse casts just a trend, or are they a key ingredient to a film's success ? Let the data respond !
 
@@ -39,7 +39,7 @@ We observe for Ethnic Diversity that :
 
 And for Gender Diversity :
 * Many movies feature only male actors, which accounts for the noticeable instances of a 0 diversity score.
-* The distribution is not symmetrical. While there are numerous movies with a predominance of male actors, the same is not true for female actor
+* The distribution is not symmetrical. While there are numerous movies with a predominance of male actors, the same is not true for female actors
 
 #### Diversity as a sign of progress in the film industry ?
 
@@ -52,7 +52,7 @@ On the other hand, a more hopeful narrative emerges when we consider ethnic dive
 
 #### Naive analysis of the relationship between Ethnic Diversity and Box Office Revenue 
 
-Before starting the analysis we want to emphasize the diversity of films in our study. We can see on the following plot that we have indie films having less than $20M in box office revenue as well as big films. This ensures our insights reflect the entire film industry, not just a single segment.
+Before starting the analysis, we want to emphasize the diversity of films in our study. We can see on the following plot that we have indie films having less than $20M in box office revenue as well as big films. This ensures our insights reflect the entire film industry, not just a single segment.
 
 <iframe src="assets/distrib_boxoffice.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
@@ -67,7 +67,7 @@ Our findings do show a real link between a film’s cast ethnic diversity and it
 
 #### Naive analysis of the relationship between Gender Diversity and Box Office Revenue 
 
-We also took a look at the gender diversity influence. After the stastics test we found a very low Pearson correlation which tell us there's basically no straight-line relationship between the two. Having a more balanced mix of genders in the cast doesn't seem to have a clear link with the movie's financial success.
+We also took a look at the gender diversity influence. After the stastical tests, we found a very low Pearson correlation which tell us there's basically no straight-line relationship between the two. Having a more balanced mix of genders in the cast doesn't seem to have a clear link with the movie's financial success.
 As for the ethnic diversity analysis we did a regression analysis to confirm what we found resulting in the following graph :  
 
 <iframe src="assets/gender_corr_boxoffice.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
