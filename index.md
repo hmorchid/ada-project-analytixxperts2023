@@ -94,11 +94,17 @@ In this section, we're going to look closely at how movie performance is related
 
 In the graph below, we notice that the number of languages in movies is fairly even, but the release years are quite uneven between the control and treatment groups. To fix this, we use propensity score matching to create a more balanced dataset considering these factors.
 
-<iframe src="assets/before_after_matching.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="assets/before_after_matching.html" width="1000px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 When you click the "After" button, you'll see the results post-matching. Now, the release years are more evenly spread between the control and treatment groups. This means these factors won't really affect our study of performance and diversity.
 
 #### Impact of Ethnic Diversity on Box Office
+
+<img align="center" width="350" src="density_eth_box.png">
+
+<img align="center" width="350" src="scatterplot_regression.png">
+
+From the distribution above and statistical tests, we see that the relationship between a movie's box office performance and the fact that it received treatment (having a diverse cast), is a positive correlation. It indicates that having a diverse cast in terms of ethnicity brings a better performance in terms of box office.
 
 ## Causal Analysis accross time periods
 
