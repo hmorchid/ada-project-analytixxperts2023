@@ -30,7 +30,9 @@ We find that D1 = 0.8 is significantly greater than D2 = 0.02. This result is co
   
   The Simpson Diversity Index is calculated as follows :
 
+<p align="left">
 <img align="left" width="350" src="simspon.png">
+</p>
 
 Where : 
 - **N** represents the total number of units in the population
@@ -120,13 +122,9 @@ In the graph below, we noticed that the number of languages in movies is fairly 
   
   In order to keep enough samples for a meaningful analysis, the matching based on genre was determined using the following formula:
 
-
-$\frac{len(G_1 \cap G_2)}{max(len(G_1),len(G_2))} \geqslant t$
-
-Where :
-- $G_i$ the genre set of movie
-- $i$ and $t$ a chosen threshold.
-</details>
+<p align="left">
+<img align="left" width="350" src="maths.png">
+</p>
 
 <iframe src="assets/before_after_matching.html" width="1000px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
