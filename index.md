@@ -80,9 +80,9 @@ We summarized our results in the following table :
 | | Pearson correlation | Linear regression |
 |-------|--------------------------|---------|
 | Ethnic diversity of the cast and the movie's box office revenue | Positive and significant | Positive and significant |
-| Ethnic diversity of the cast and the movie's rating | None | None |
-| Gender diversity of the cast and the movie's box office revenue | None | None |
-| Gender diversity of the cast and the movie's rating | None | None |
+| Ethnic diversity of the cast and the movie's rating | Negligibly negative and significant | Negligibly negative and significant |
+| Gender diversity of the cast and the movie's box office revenue | Null or non significant | Null or non significant |
+| Gender diversity of the cast and the movie's rating | Null or non significant | Null or non significant |
 
 In conclusion, based on our naive analysis, we can say that having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. However, for other combinations, no definitive conclusions can be drawn.
 
@@ -112,9 +112,11 @@ We proceeded in the same manner for the other cases, we present you the results 
 | | Linear regression| 
 |-------|--------------------------|
 | Ethnic diversity of the cast and the movie's box office revenue | Positive and significant | 
-| Ethnic diversity of the cast and the movie's rating | None | 
-| Gender diversity of the cast and the movie's box office revenue | None | 
-| Gender diversity of the cast and the movie's rating | None |
+| Ethnic diversity of the cast and the movie's rating | Null or non significant | 
+| Gender diversity of the cast and the movie's box office revenue | Negligibly negative and significant | 
+| Gender diversity of the cast and the movie's rating | Negligibly negative and significant |
+
+We found negative a correlation between gender diversity and both performance variables but those explain a very negligible part of the variance. Finally, no significant effect was identified between ethnic diversity and average ratings of movies.
 
 In conclusion, the comprehensive causal analysis corroborated the findings of the naive analysis : Having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. For other variable combinations, there seems to be no relationship.
 
@@ -194,10 +196,10 @@ We performed the same analysis on the impact of cast's diversity on films' avera
 
 | | Linear regression| 
 |-------|--------------------------|
-| Ethnic diversity of the cast and the movie's box office revenue | Positive and significant | 
-| Ethnic diversity of the cast and the movie's rating | None | 
-| Gender diversity of the cast and the movie's box office revenue | None | 
-| Gender diversity of the cast and the movie's rating | None |
+| Ethnic diversity of the cast and the movie's box office revenue | Positive and significant only after 1970 | 
+| Ethnic diversity of the cast and the movie's rating | Negative and significant between 2005 and 2008 | 
+| Gender diversity of the cast and the movie's box office revenue | Null or non significant | 
+| Gender diversity of the cast and the movie's rating | Null or non significant |
 
 In conclusion, the causal analysis across time periods aligns with the general findings but provides more detailed insights :
 
