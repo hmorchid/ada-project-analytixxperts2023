@@ -107,7 +107,7 @@ From the distribution above and statistical tests, we see that the relationship 
 
 #### Other results
 
-We proceeded in the same manneer for the other case, we present you the results in the following table :
+We proceeded in the same manner for the other cases, we present you the results in the following table :
 
 | | Linear regression| 
 |-------|--------------------------|
