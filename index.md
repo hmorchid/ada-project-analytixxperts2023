@@ -29,11 +29,17 @@ This means that if we compare two scenarios:
 
 We find that **D1 = 0.8** is significantly greater than **D2 = 0.02**. This result is coherent as Movie 1 appears to have a more diverse cast, even though Movie 2 includes a greater number of ethnicities.
 
-We utilized this index to analyze the films in our dataset, leading to the creation of the pie chart displayed below:
+We utilized this index to analyze the films in our dataset, leading to the creation of the bar plots displayed below:
 
 <iframe src="assets/distrib_diversity_3.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
-We observe that a high majority of the films have a very high gender diversity. For the ethnic diversity, the distribution is more nuanced but we can say that the majority of the films have a good ethnic diversity.
+We observe for Ethnic Diversity that :
+* A considerable number of local movies feature actors exclusively from the same country or ethnicity, which accounts for the noticeable instances of a 0 diversity score.
+* This distribution is derived using the Simpson diversity index, which considers two actors diverse if they do not have the exact same label. Given the dataset's extreme imbalance in terms of ethnicities, it's expected that the distribution won't be smooth. However, it's noteworthy that the frequency appears lower at the extremes and higher around the 0.5 mark.
+
+And for Gender Diversity :
+* Many movies feature only male actors, which accounts for the noticeable instances of a 0 diversity score.
+* The distribution is not symmetrical. While there are numerous movies with a predominance of male actors, the same is not true for female actor
 
 #### Diversity as a sign of progress in the film industry ?
 
