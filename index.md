@@ -188,7 +188,7 @@ As before we present you the distribution of the two groups — Control (Low Div
 
 <img id="density_gender_box_periods_img" src="assets/gender_box_period_0.png" alt="Density Plot Gender">
 
-#### Other results
+#### Average rating results
 
 We performed the same analysis on the impact of cast's diversity on films' average ratings over time periods and we present you the final results in the following table :
 
