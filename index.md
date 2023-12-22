@@ -84,7 +84,7 @@ We resumed our results in the following table :
 
 In conclusion, based on our naive analysis, we can say that having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. However, for other combinations, no definitive conclusions can be drawn.
 
-## Global causal analysis¶
+## Global causal analysis
 
 In this section, we're going to look closely at how movie performance is related to ethnic and gender diversity. Usually, a naive analysis might miss other factors that can change the results, like the number of languages a movie is translated into, its release year, and genre. To avoid this, we'll use a method called propensity score matching. This helps us compare movies with diverse casts (our treatment group) to those with less diversity (our control group) in a fair way. We'll make sure other factors are balanced between these groups. We'll then examine how movie ratings and box office earnings are connected to diversity, breaking down our findings for each type of diversity we study.
 
