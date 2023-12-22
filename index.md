@@ -27,7 +27,7 @@ We find that D1 = 0.8 is significantly greater than D2 = 0.02. This result is co
 
  Mathematics for nerds 🤓
   
-  The Simpson Diversity Index is calculated as follows :
+ The Simpson Diversity Index is calculated as follows :
 
 <p align="left">
 <img align="left" width="350" src="assets/simspon.png">
@@ -116,14 +116,15 @@ Usually, a naive analysis might miss other factors that can change the results, 
 
 In the graph below, we noticed that the number of languages in movies is fairly even, but the release years are quite uneven between the control and treatment groups. To fix this, we used propensity score matching to create a more balanced dataset considering these factors.
 
-<details>
-  <summary> Mathematics for nerds 🤓</summary>
+
+Mathematics for nerds 🤓
   
   In order to keep enough samples for a meaningful analysis, the matching based on genre was determined using the following formula:
 
 <p align="left">
 <img align="left" width="350" src="assets/maths.png">
 </p>
+
 
 <iframe src="assets/before_after_matching.html" width="1000px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
