@@ -46,7 +46,7 @@ On the other hand, a more hopeful narrative emerges when we consider ethnic dive
 
 #### Naive analysis of the relationship between Diversity and Box Office Revenue 
 
-Before starting the analysis we wantto emphasize the diversity of films in our study. We can see on the following plot that we have indie films having less than $20M in box office revenue as well as big films. This ensures our insights reflect the entire film industry, not just a single segment.
+Before starting the analysis we want to emphasize the diversity of films in our study. We can see on the following plot that we have indie films having less than $20M in box office revenue as well as big films. This ensures our insights reflect the entire film industry, not just a single segment.
 
 <iframe src="assets/distrib_boxoffice.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
