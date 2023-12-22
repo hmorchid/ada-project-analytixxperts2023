@@ -68,15 +68,19 @@ After looking at the scatter plot, it's clear that the numbers back up what we f
 
 #### What about Average Ratings ?
 
+The other metric we chose to evaluate performance is the average rating of a movie. The following chart shows the distribution of the different average ratings accros the films :
+
 <iframe src="assets/distrib_rating.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
-Ethnic Diversity compared to ratings :
+As we did for the box office revenue we will conduct some first analysis to try to see if there is a correlation between ethnic and gender diversity and the film’s average rating.
+We resumed our results in the following table :
 
-<iframe src="assets/diversity_ethnicity_corr_rating.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
-
-Gender Diversity compared to ratings :
-
-<iframe src="assets/gender_corr_rating.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+| | Pearson correlation | Linear regression |
+|-------|--------------------------|---------|
+| Ethnic diversity of the cast and the movie's box office revenue | Positive and significant | Positive and significant |
+| Ethnic diversity of the cast and the movie's rating | None | None |
+| Gender diversity of the cast and the movie's box office revenue | None | None |
+| Gender diversity of the cast and the movie's rating | None | None |
 
 <iframe src="assets/ethnicity_boxoffice_timeperiods.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
