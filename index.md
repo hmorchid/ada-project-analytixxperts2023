@@ -9,17 +9,14 @@ use-site-title: true
 
 The topic of diversity is gaining increasing attention nowadays. Many studies, like [this McKinsey & Company report](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters), affirm that diversity is not just a buzzword but a pivotal aspect of business success. We would like to assess whether this phenomenon is also applicable to the movie industry.  After reading this report, a prominent producer at 20th Century, one of Hollywood's most renowned film studios, began to seriously consider that diversity in its castings might be the key to improving performance of its future productions. He decided to contact us to know if we can prove the point that Mckinsey & Company is making in its report. 
 
-Our task, therefore, is to verify whether, in fact, diversity actually contributes to success in the world of cinema, looking not only at cinematic triumphs such as "Black Panther" and "Barbie", which not only broke records at the box office but also marked a significant cultural moment in celebrating ethnic and gender diversity, but also on a broader analysis of films' performance, i.e. their box office revenues and public ratings , in relation to the diversity of their casting.
-
 ## Introduction
-
-Join us on this journey as we unravel the data story behind the impact diversity in films' success. We will dissect this relationship by analyzing a variety of films across genres, from blockbuster hits to indie gems, our research will shed light on whether films with diverse casts resonate more profoundly with audiences and critics alike. 
+Lights, Camera, Action! Join us on this journey as we unravel the data story behind the impact diversity in films' success. We will dissect this relationship by analyzing a variety of films across genres, from blockbuster hits to indie gems, our research will shed light on whether films with diverse casts resonate more profoundly with audiences and critics alike. 
 
 By navigating in the data we will uncover the patterns, understand the impacts, and discover whether the movies we love are a reflection of the diverse world we live in. Are diverse casts just a trend, or are they a key ingredient to a film's success ? Let the data respond !
 
-#### Wait .. what really is Diversity ?
+#### Wait... what really is Diversity ?
 
-First, to best perform analysis we will need to define how we will measure diversity. We already said that we will focus on the ethnicity and the gender of the films actors but we need a quantitative tool to treat the data well. We chose to use the Simpson Diversity Index, which is calculated by assessing the likelihood that two randomly chosen individuals from a sample will not belong to the same species. A key strength of this index is that it considers not just the variety of species present but also the relative abundance of each species. 
+First, to best perform analysis we will need to define how we will measure diversity. We already said that we will focus on the ethnicity and the gender of the films actors but we need a quantitative tool to treat the data well. We chose to use the [Simpson Diversity Index](https://stats.stackexchange.com/a/62744), which is calculated by assessing the likelihood that two randomly chosen individuals from a sample will not belong to the same species. A key strength of this index is that it considers not just the variety of species present but also the relative abundance of each species. 
 
 This means that if we compare two scenarios:
 
@@ -27,6 +24,21 @@ This means that if we compare two scenarios:
 - Movie 2: 99% representation of one ethnicity, with 100 different ethnicities comprising the remaining 1%.
 
 We find that **D1 = 0.8** is significantly greater than **D2 = 0.02**. This result is coherent as Movie 1 appears to have a more diverse cast, even though Movie 2 includes a greater number of ethnicities.
+
+<details>
+  <summary> Mathematics for nerds :nerd_face:</summary>
+  
+  The Simpson Diversity Index is calculated as follows :
+
+$D = 1 - \sum_{k=1}^{K} \left(\frac{n_k}{N}\right)^2$
+
+Where : 
+- **N** represents the total number of units in the population
+- **K** denotes the different types within it.
+- For each type **k**, **$n_k$** is the number of units.
+- The value of **D** varies between 0 and 1, with a lower value indicating less diversity in the population.
+</details>
+
 
 We used this index to analyze the films in our dataset, leading to the creation of the bar plots displayed below:
 
@@ -49,7 +61,7 @@ In today's world, diversity and inclusion are key values. This is a big change f
 Upon examining the data, we noticed a particular trend regarding gender diversity. The curve, representing the evolution of gender representation, unfortunately, does not indicate significant progress. This stagnation suggests that while conversations around gender equality have become more mainstream, the translation of these discussions into tangible change within the film industry has been limited.
 On the other hand, a more hopeful narrative emerged when we considered ethnic diversity. Here, the graph depicts an upward trajectory, indicating a gradual but apparent increase in the representation of various ethnicities on screen. This trend reflects a growing acknowledgment within the industry of the importance of racial and cultural representation, and while there's still much ground to cover, it suggests a positive direction towards inclusivity.
 
-## Now let's be naive for a moment
+## Now let's be naive for a moment...
 
 #### Naive analysis of the relationship between Ethnic Diversity and Box Office Revenue 
 
@@ -86,22 +98,35 @@ We summarized our results in the following table :
 
 | | Pearson correlation | Linear regression |
 |-------|--------------------------|---------|
-| Ethnic diversity of the cast and the movie's box office revenue | Positive and significant | Positive and significant |
-| Ethnic diversity of the cast and the movie's rating | Negligibly negative and significant | Negligibly negative and significant |
+| Ethnic diversity of the cast and the movie's box office revenue | ✅ Positive and significant | ✅ Positive and significant |
+| Ethnic diversity of the cast and the movie's rating | ❌ Negligibly negative and significant | ❌ Negligibly negative and significant |
 | Gender diversity of the cast and the movie's box office revenue | Null or non significant | Null or non significant |
 | Gender diversity of the cast and the movie's rating | Null or non significant | Null or non significant |
 
-In conclusion, based on our naive analysis, we can say that having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. However, for other combinations, the naive analysis reveals no connection between them. Consequently, no definitive conclusions can be drawn.
+In conclusion, based on our naive analysis, we can say that having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. However, it may slightly decrease the rating, which we can regard as insignificant. For other combinations, the naive analysis reveals no connection between them. Consequently, no definitive conclusions can be drawn.
 
 Follwoing the end of our initial analyisis, we've been nudged by the producer through an email reminding us of the looming deadline to present our findings. Acknowledging the time sensitivity, we promptly sent over our preliminary results from the naive analysis, with a clear caveat that these are initial insights and should be interpreted with caution. We emphasized that this is merely the first step in a more detailed and layered analysis.
 
-## Let's go deeper ..
+## Now, let's dive into the Global Causal analysis...
 
 Usually, a naive analysis might miss other factors that can change the results, like the number of languages a movie is translated into, its release year, and genre. To avoid this, we used a method called propensity score matching. This helped us compare movies with diverse casts (our treatment group) to those with less diversity (our control group) in a fair way. We made sure other factors are balanced between these groups. We then examined how movie ratings and box office earnings were connected to diversity, breaking down our findings for each type of diversity we studied.
 
 #### Propensity score matching
 
 In the graph below, we noticed that the number of languages in movies is fairly even, but the release years are quite uneven between the control and treatment groups. To fix this, we used propensity score matching to create a more balanced dataset considering these factors.
+
+<details>
+  <summary> Mathematics for nerds :nerd_face:</summary>
+  
+  In order to keep enough samples for a meaningful analysis, the matching based on genre was determined using the following formula:
+
+
+$\frac{len(G_1 \cap G_2)}{max(len(G_1),len(G_2))} \geqslant t$
+
+Where :
+- $G_i$ the genre set of movie
+- $i$ and $t$ a chosen threshold.
+</details>
 
 <iframe src="assets/before_after_matching.html" width="1000px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
@@ -120,20 +145,20 @@ We proceeded in the same manner for the other cases, we present you the results 
 
 | | Linear regression| 
 |-------|--------------------------|
-| Ethnic diversity of the cast and the movie's box office revenue | Positive and significant | 
+| Ethnic diversity of the cast and the movie's box office revenue | ✅ Positive and significant | 
 | Ethnic diversity of the cast and the movie's rating | Null or non significant | 
-| Gender diversity of the cast and the movie's box office revenue | Negligibly negative and significant | 
-| Gender diversity of the cast and the movie's rating | Negligibly negative and significant |
+| Gender diversity of the cast and the movie's box office revenue | ❌ Negligibly negative and significant | 
+| Gender diversity of the cast and the movie's rating | ❌ Negligibly negative and significant |
 
 We found negative a correlation between gender diversity and both performance variables but those explain a very negligible part of the variance. Finally, no significant effect was identified between ethnic diversity and average ratings of movies.
 
 In conclusion, the comprehensive causal analysis corroborated the findings of the naive analysis : Having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. For other variable combinations, there seems to be no relationship.
 
-## Ready for a trip back in time?
+## Causal Analysis accross time periods
 
 The preceding section aimed to conduct a global causal analysis spanning the entire history of cinema. However, the film industry is subject to evolution over time. Consequently, this section is dedicated to exploring whether ethnic or gender diversity has influenced box office revenues or movie ratings across different years. Analyzing every single year is not feasible due to practical constraints. Therefore, we segmented the data into decade-long intervals, with each segment containing roughly an equal number of films.
 
-#### Has ethnic diversity always mattered?
+#### Impact of Ethnic Diversity on Box Office
 
 We did the same thing as in the precedent section, but this time we grouped movies into 10 bunches based on when they came out, trying to keep the same number of movies in each group. We found out that having different ethnicities in a movie's cast usually meant the movie earned more money, but this wasn't true for movies from 1925 to 1973.
 
@@ -166,7 +191,7 @@ Furthermore, the following graphs shows how much money two different groups of m
 
 <img id="density_eth_box_periods_img" src="assets/eth_box_period_0.png" alt="Density Plot">
 
-#### Was Gender Diversity Once Correlated to Earnings ?
+#### Impact of Gender Diversity on Box Office
 
 We did the same analysis to see if maybe there is a time period during which gender diversity had an impact on box office revenue.
 
@@ -199,22 +224,26 @@ As before we present you the distribution of the two groups — Control (Low Div
 
 <img id="density_gender_box_periods_img" src="assets/gender_box_period_0.png" alt="Density Plot Gender">
 
-#### Average ratings and overall results
+#### Average rating results
 
 We performed the same analysis on the impact of cast's diversity on films' average ratings over time periods and we present you the final results in the following table :
 
 | | Linear regression| 
 |-------|--------------------------|
-| Ethnic diversity of the cast and the movie's box office revenue | Positive and significant only after 1970 | 
-| Ethnic diversity of the cast and the movie's rating | Negative and significant between 2005 and 2008 | 
+| Ethnic diversity of the cast and the movie's box office revenue | ✅ Positive and significant only after 1970 | 
+| Ethnic diversity of the cast and the movie's rating | ❌ Negative and significant between 2005 and 2008 | 
 | Gender diversity of the cast and the movie's box office revenue | Null or non significant | 
 | Gender diversity of the cast and the movie's rating | Null or non significant |
 
 In conclusion, the causal analysis across time periods aligns with the general findings but provides more detailed insights :
 Having a more ethnically diverse cast tends to lead to higher movie box office earnings, but this trend is only evident from the 1970s to the present.
-Surprisingly, between 2005 and 2008, it was observed that greater ethnic diversity in a cast correlated with lower movie ratings.
+Surprisingly, between 2005 and 2008, it was observed that greater ethnic diversity in a cast correlated with lower movie ratings. What a Plot Twist!
 
 
 ## Conclusion
 
-This is where we conclude our study and report our final results and insights to the producer. The aim of our research was to assess whether diversity in terms of gender and ethnicity had an impact on the success of movies. We defined two diversity metrics, **ethnic** and **gender** diversity, measured their value using the [Simpson Diversity Index](https://stats.stackexchange.com/a/62744) and compared them independently to our performance metrics, **box office revenue** and **average ratings**. Over all the analyses we performed, we mostly found a **positive correlation between box office revenue and ethnic diversity**. We also found some significant negative correlations when comparing other features, but we found them to be negligible since they explained a very low fraction of variance. It is very important to note that these analyses were performed mostly with the information given and already available in the [CMU movie dataset](https://www.cs.cmu.edu/~ark/personas/). A more robust explanation of the effects we found would require access to other relevant information that could be defined as confounders in our analyses. A few of them would be movie budgets, inflation rates, and more complete movie casts.
+This is where we conclude our study and report our final results and insights to the producer. The aim of our research was to assess whether diversity in terms of gender and ethnicity had an impact on the success of movies. We defined two diversity metrics, **ethnic** and **gender** diversity, measured their value using the [Simpson Diversity Index](https://stats.stackexchange.com/a/62744) and compared them independently to our performance metrics, **box office revenue** and **average ratings**. Over all the analyses we performed, we mostly found a **positive correlation between box office revenue and ethnic diversity**. We also found some significant negative correlations when comparing other features, but we found them to be negligible since they explained a very low fraction of variance. 
+
+It is very important to note that these analyses were performed mostly with the information given and already available in the [CMU movie dataset](https://www.cs.cmu.edu/~ark/personas/). A more robust explanation of the effects we found would require access to other relevant information that could be defined as confounders in our analyses. A few of them would be movie budgets, inflation rates, and more complete movie casts.
+
+> :memo: **Pro tip for producers :** A diverse cast is like 3D glasses for your box office numbers. It makes them pop !!
