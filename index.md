@@ -120,6 +120,9 @@ In conclusion, the comprehensive causal analysis corroborated the findings of th
 
 ## Causal Analysis accross time periods
 
+The preceding section aimed to conduct a global causal analysis spanning the entire history of cinema. However, the film industry is subject to evolution over time. Consequently, this section is dedicated to exploring whether ethnic or gender diversity has influenced box office revenues or movie ratings across different years. Analyzing every single year is not feasible due to practical constraints. Therefore, we will segment the data into decade-long intervals, with each segment containing roughly an equal number of films.
+
+#### Impact of Ethnic Diversity on Box Office
 
 <script>
   function swapImage3() {
@@ -130,29 +133,26 @@ In conclusion, the comprehensive causal analysis corroborated the findings of th
 </script>
 
 <select id="period-selector" onchange="swapImage3()" style="margin: 8px 0; width: 20%;">
-  <option value="assets/density_eth_box_period1.png">Period1</option>
-  <option value="assets/density_eth_box_period2.png">Period2</option>
-  <option value="assets/density_eth_box_period3.png">Period3</option>
+  <option value="assets/eth_box_period_0.png">1925-1969</option>
+  <option value="assets/eth_box_period_1.png">1969-1984</option>
+  <option value="assets/eth_box_period_2.png">1984-1989</option>
+  <option value="assets/eth_box_period_3.png">1989-1993</option>
+  <option value="assets/eth_box_period_4.png">1993-1997</option>
+  <option value="assets/eth_box_period_5.png">1997-2000</option>
+  <option value="assets/eth_box_period_6.png">2000-2003</option>
+  <option value="assets/eth_box_period_7.png">2003-2006</option>
+  <option value="assets/eth_box_period_8.png">2006-2009</option>
+  <option value="assets/eth_box_period_9.png">2009-2012</option>
 </select>
 
-<img id="density_eth_box_periods_img" src="assets/density_eth_box_period1.png" alt="Density Plot">
-
-<img id="density_eth_box_periods_img" src="assets/density_eth_box_period1.png" alt="Description of image 1">
-
-
-<script>
-  function swapImage3(newImage) {
-    var image = document.getElementById("density_eth_box_periods_img");
-    image.src = newImage;
-  }
-</script>
-
-<button class="button" style="margin: 8px 0; width: 20%; margin-left: 130px; margin-right: 5px" onclick="swapImage3('assets/density_eth_box_period1.png')">Period1</button>
-<button class="button" style="width: 20%; margin-right: 5px;" onclick="swapImage3('assets/density_eth_box_period2.png')">Period2</button>
-<button class="button" style="width: 20%;" onclick="swapImage3('assets/density_eth_box_period3.png')">Period3</button>
-
-
+<img id="density_eth_box_periods_img" src="assets/eth_box_period_0.png" alt="Density Plot">
 
 <iframe src="assets/ethnicity_boxoffice_timeperiods.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
+#### Impact of Gender Diversity on Box Office
+
 <iframe src="assets/gender_boxoffice_timeperiods.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+
+#### Other results
+
+
