@@ -100,8 +100,8 @@ When you click the "After" button, you'll see the results post-matching. Now, th
 
 #### Impact of Ethnic Diversity on Box Office
 
-<img align="left" width="350" src="assets/density_eth_box.png">                                                      
-<img align="center" width="350" src="assets/regression_eth_bof_after.png">
+<img align="left" width="350" src="assets/density_global.png">                                                      
+<img align="center" width="350" src="assets/regression_global.png">
 
 From the distribution above and statistical tests, we see that the relationship between a movie's box office performance and the fact that it received treatment (having a diverse cast), is a positive correlation. It indicates that having a diverse cast in terms of ethnicity brings a better performance in terms of box office.
 
