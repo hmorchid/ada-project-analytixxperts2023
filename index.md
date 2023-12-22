@@ -100,7 +100,8 @@ When you click the "After" button, you'll see the results post-matching. Now, th
 
 #### Impact of Ethnic Diversity on Box Office
 
-<img align="left" width="350" src="assets/density_eth_box.png"> <img align="center" width="350",  src="assets/regression_eth_bof_after.png">
+<img align="left" width="350" src="assets/density_eth_box.png">                                                      
+<img align="center" width="350",  src="assets/regression_eth_bof_after.png">
 
 
 
