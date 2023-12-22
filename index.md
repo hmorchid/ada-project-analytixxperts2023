@@ -33,14 +33,6 @@ We find that D1 = 0.8 is significantly greater than D2 = 0.02. This result is co
 <img align="left" width="350" src="assets/simspon.png">
 </p>
 
-Where : 
-- **N** represents the total number of units in the population
-- **K** denotes the different types within it.
-- For each type **k**, **$n_k$** is the number of units.
-- The value of **D** varies between 0 and 1, with a lower value indicating less diversity in the population.
-</details>
-
-
 We used this index to analyze the films in our dataset, leading to the creation of the bar plots displayed below:
 
 <iframe src="assets/distrib_diversity_3.html" width="800px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
