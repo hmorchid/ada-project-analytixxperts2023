@@ -103,10 +103,20 @@ When you click the "After" button, you'll see the results post-matching. Now, th
 <img align="left" width="350" src="assets/density_eth_box.png">                                                      
 <img align="center" width="350",  src="assets/regression_eth_bof_after.png">
 
-
-
-
 From the distribution above and statistical tests, we see that the relationship between a movie's box office performance and the fact that it received treatment (having a diverse cast), is a positive correlation. It indicates that having a diverse cast in terms of ethnicity brings a better performance in terms of box office.
+
+#### Other results
+
+We proceeded in the same manneer for the other case, we present you the results in the following table :
+
+| | Linear regression| 
+|-------|--------------------------|
+| Ethnic diversity of the cast and the movie's box office revenue | Positive and significant | 
+| Ethnic diversity of the cast and the movie's rating | None | 
+| Gender diversity of the cast and the movie's box office revenue | None | 
+| Gender diversity of the cast and the movie's rating | None |
+
+In conclusion, the comprehensive causal analysis corroborated the findings of the naive analysis : Having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. For other variable combinations, there seems to be no relationship.
 
 ## Causal Analysis accross time periods
 
