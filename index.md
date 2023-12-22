@@ -178,4 +178,4 @@ The preceding section aimed to conduct a global causal analysis spanning the ent
 
 #### Other results
 
-
+## Conclusion
