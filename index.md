@@ -120,6 +120,20 @@ In conclusion, the comprehensive causal analysis corroborated the findings of th
 
 ## Causal Analysis accross time periods
 
+<img id="density_eth_box_periods_img" src="assets/density_eth_box_period1.png" alt="Description of image 1">
+
+<script>
+  function swapImage3(newImage) {
+    var image = document.getElementById("density_eth_box_periods_img");
+    image.src = newImage;
+  }
+</script>
+
+<button class="button" style="margin: 8px 0; width: 20%; margin-left: 130px; margin-right: 5px" onclick="swapImage3('assets/density_eth_box_period1.png.png')">Period1</button>
+<button class="button" style="width: 20%; margin-right: 5px;" onclick="swapImage3('assets/density_eth_box_period2.png')">Period2</button>
+<button class="button" style="width: 20%;" onclick="swapImage3('assets/density_eth_box_period3.png')">Period3</button>
+
+
 <iframe src="assets/ethnicity_boxoffice_timeperiods.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 <iframe src="assets/gender_boxoffice_timeperiods.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
