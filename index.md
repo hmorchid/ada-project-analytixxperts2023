@@ -91,7 +91,7 @@ We summarized our results in the following table :
 
 In conclusion, based on our naive analysis, we can say that having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. However, for other combinations, the naive analysis reveals no connection between them. Consequently, no definitive conclusions can be drawn.
 
-## Global causal analysis
+## Let's go deeper ..
 
 Usually, a naive analysis might miss other factors that can change the results, like the number of languages a movie is translated into, its release year, and genre. To avoid this, we used a method called propensity score matching. This helped us compare movies with diverse casts (our treatment group) to those with less diversity (our control group) in a fair way. We made sure other factors are balanced between these groups. We then examined how movie ratings and box office earnings were connected to diversity, breaking down our findings for each type of diversity we studied.
 
@@ -125,11 +125,11 @@ We found negative a correlation between gender diversity and both performance va
 
 In conclusion, the comprehensive causal analysis corroborated the findings of the naive analysis : Having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. For other variable combinations, there seems to be no relationship.
 
-## Causal Analysis accross time periods
+## Ready for a trip back in time?
 
 The preceding section aimed to conduct a global causal analysis spanning the entire history of cinema. However, the film industry is subject to evolution over time. Consequently, this section is dedicated to exploring whether ethnic or gender diversity has influenced box office revenues or movie ratings across different years. Analyzing every single year is not feasible due to practical constraints. Therefore, we segmented the data into decade-long intervals, with each segment containing roughly an equal number of films.
 
-#### Impact of Ethnic Diversity on Box Office
+#### Has ethnic diversity always mattered?
 
 We did the same thing as in the precedent section, but this time we grouped movies into 10 bunches based on when they came out, trying to keep the same number of movies in each group. We found out that having different ethnicities in a movie's cast usually meant the movie earned more money, but this wasn't true for movies from 1925 to 1973.
 
@@ -162,7 +162,7 @@ Furthermore, the following graphs shows how much money two different groups of m
 
 <img id="density_eth_box_periods_img" src="assets/eth_box_period_0.png" alt="Density Plot">
 
-#### Impact of Gender Diversity on Box Office
+#### Was Gender Diversity Once Correlated to Earnings ?
 
 We did the same analysis to see if maybe there is a time period during which gender diversity had an impact on box office revenue.
 
@@ -195,7 +195,7 @@ As before we present you the distribution of the two groups — Control (Low Div
 
 <img id="density_gender_box_periods_img" src="assets/gender_box_period_0.png" alt="Density Plot Gender">
 
-#### Average rating results
+#### Average ratings and overall results
 
 We performed the same analysis on the impact of cast's diversity on films' average ratings over time periods and we present you the final results in the following table :
 
