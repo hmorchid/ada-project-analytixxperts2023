@@ -82,6 +82,8 @@ We resumed our results in the following table :
 | Gender diversity of the cast and the movie's box office revenue | None | None |
 | Gender diversity of the cast and the movie's rating | None | None |
 
+In conclusion, based on our naive analysis, we can say that having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. However, for other combinations, no definitive conclusions can be drawn.
+
 <iframe src="assets/ethnicity_boxoffice_timeperiods.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 <iframe src="assets/gender_boxoffice_timeperiods.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
