@@ -84,7 +84,7 @@ We summarized our results in the following table :
 | Gender diversity of the cast and the movie's box office revenue | Null or non significant | Null or non significant |
 | Gender diversity of the cast and the movie's rating | Null or non significant | Null or non significant |
 
-In conclusion, based on our naive analysis, we can say that having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. However, for other combinations, no definitive conclusions can be drawn.
+In conclusion, based on our naive analysis, we can say that having a more diverse cast in terms of ethnicity tends to result in higher movie box office earnings. However, for other combinations, the naive analysis reveals no connection between them. Consequently, no definitive conclusions can be drawn.
 
 ## Global causal analysis
 
