@@ -129,7 +129,7 @@ In conclusion, the comprehensive causal analysis corroborated the findings of th
   }
 </script>
 
-<button class="button" style="margin: 8px 0; width: 20%; margin-left: 130px; margin-right: 5px" onclick="swapImage3('assets/density_eth_box_period1.png.png')">Period1</button>
+<button class="button" style="margin: 8px 0; width: 20%; margin-left: 130px; margin-right: 5px" onclick="swapImage3('assets/density_eth_box_period1.png')">Period1</button>
 <button class="button" style="width: 20%; margin-right: 5px;" onclick="swapImage3('assets/density_eth_box_period2.png')">Period2</button>
 <button class="button" style="width: 20%;" onclick="swapImage3('assets/density_eth_box_period3.png')">Period3</button>
 
