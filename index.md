@@ -120,18 +120,23 @@ In conclusion, the comprehensive causal analysis corroborated the findings of th
 
 ## Causal Analysis accross time periods
 
-<img id="density_eth_box_periods_img" src="assets/density_eth_box_period1.png" alt="Description of image 1">
 
 <script>
-  function swapImage3(newImage) {
+  function swapImage3() {
+    var selectedImage = document.getElementById("period-selector").value;
     var image = document.getElementById("density_eth_box_periods_img");
-    image.src = newImage;
+    image.src = selectedImage;
   }
 </script>
 
-<button class="button" style="margin: 8px 0; width: 20%; margin-left: 130px; margin-right: 5px" onclick="swapImage3('assets/density_eth_box_period1.png')">Period1</button>
-<button class="button" style="width: 20%; margin-right: 5px;" onclick="swapImage3('assets/density_eth_box_period2.png')">Period2</button>
-<button class="button" style="width: 20%;" onclick="swapImage3('assets/density_eth_box_period3.png')">Period3</button>
+<select id="period-selector" onchange="swapImage3()" style="margin: 8px 0; width: 20%;">
+  <option value="assets/density_eth_box_period1.png">Period1</option>
+  <option value="assets/density_eth_box_period2.png">Period2</option>
+  <option value="assets/density_eth_box_period3.png">Period3</option>
+</select>
+
+<img id="density_eth_box_periods_img" src="assets/density_eth_box_period1.png" alt="Density Plot">
+
 
 
 <iframe src="assets/ethnicity_boxoffice_timeperiods.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
