@@ -31,7 +31,7 @@ We find that **D1 = 0.8** is significantly greater than **D2 = 0.02**. This resu
 
 We utilized this index to analyze the films in our dataset, leading to the creation of the pie chart displayed below:
 
-<iframe src="assets/distrib_diversity_2.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="assets/distrib_diversity_3.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 We observe that a high majority of the films have a very high gender diversity. For the ethnic diversity, the distribution is more nuanced but we can say that the majority of the films have a good ethnic diversity.
 
