@@ -44,7 +44,9 @@ In today's world, diversity and inclusion are key values, showing our hope for a
 Upon examining the data, we notice a particular trend regarding gender diversity. The curve, representing the evolution of gender representation, unfortunately, does not indicate significant progress. This stagnation suggests that while conversations around gender equality have become more mainstream, the translation of these discussions into tangible change within the film industry has been limited.
 On the other hand, a more hopeful narrative emerges when we consider ethnic diversity. Here, the graph depicts an upward trajectory, indicating a gradual but apparent increase in the representation of various ethnicities on screen. This trend reflects a growing acknowledgment within the industry of the importance of racial and cultural representation, and while there's still much ground to cover, it suggests a positive direction towards inclusivity.
 
-#### Naive analysis of the relationship between Diversity and Box Office Revenue ?
+#### Naive analysis of the relationship between Diversity and Box Office Revenue 
+
+Before starting the analysis we wantto emphasize the diversity of films in our study. We can see on the following plot that we have indie films having less than $20M in box office revenue as well as big films. This ensures our insights reflect the entire film industry, not just a single segment.
 
 <iframe src="assets/distrib_boxoffice.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
@@ -55,7 +57,7 @@ To dig deeper into how the ethnic mix of the cast affects a movie's earnings, we
 
 <iframe src="assets/diversity_ethnicity_corr_boxoffice.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
-Our findings do show a real link between a film’s cast ethnic diversity and its box office success. But it's important to remember that the coefficient of determination (R²) is pretty low. This means that while ethnic diversity is part of the story, it doesn't tell us everything about why some movies make more money than others. There are likely other factors at play too.
+Our findings do show a real link between a film’s cast ethnic diversity and its box office success. But we also found that while ethnic diversity is part of the story, it doesn't tell us everything about why some movies make more money than others. There are likely other factors at play too.
 
 We also took a look at the gender diversity influence. After the stastics test we found a very low Pearson correlation which tell us there's basically no straight-line relationship between the two. Having a more balanced mix of genders in the cast doesn't seem to have a clear link with the movie's financial success.
 As for the ethnic diversity analysis we did a regression analysis to confirm what we found resulting in the following graph :  
