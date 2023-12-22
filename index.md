@@ -130,7 +130,7 @@ We did the same thing as in the precedent section, but this time we grouped movi
 
 It could be that we don't have all the information about the actors in older movies. Maybe back then, having a mix of ethnicities in a movie didn't really help it make more money. But from the 1970s onwards, it looks like it does make a difference. The more mixed the cast is, the more money the movie seems to bring in. Our next graph shows what we found.
 
-<iframe src="assets/ethnicity_boxoffice_timeperiods.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="assets/ethnicity_boxoffice_timeperiods2.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 Furthermore, the following graphs shows how much money two different groups of movies made: one group with less mix in the cast and one with more. Like we said, we also split the movies into 10 time periods. This split lets us see if there are any changes over time between the less mixed and more mixed groups. Mostly, the movies with a more mixed cast made more money than the ones with less, except between 1925 and 1973. So, from what the graphs tell us, having a cast with people from different ethnic backgrounds seems to help a movie's earnings after the 1970s.
 
@@ -163,7 +163,7 @@ We do the same to see if maybe there is a time period during which gender divers
 
 In the plots below, the regression line (shown in red) is quite flat. Furthermore, our statistical tests suggest that there is no significant difference in box office revenue between the treated (High Diversity) and control (Low Diversity) groups when it comes to gender.
 
-<iframe src="assets/gender_boxoffice_timeperiods.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="assets/gender_boxoffice_timeperiods2.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 As before we present you the distribution of the two groups — Control (Low Diversity) and Treatment (High Diversity) — in terms of Box Office Revenue. The following plot reveals that there is no discernible difference between the two groups, as indicated by the overlapping distributions. Upon analyzing both plots, it becomes apparent that there is no correlation between the gender diversity of a movie cast (in terms of gender) and its box office revenue.
 
