@@ -151,6 +151,29 @@ The preceding section aimed to conduct a global causal analysis spanning the ent
 
 #### Impact of Gender Diversity on Box Office
 
+<script>
+  function swapImage4() {
+    var selectedImage = document.getElementById("period-selector").value;
+    var image = document.getElementById("density_gender_box_periods_img");
+    image.src = selectedImage;
+  }
+</script>
+
+<select id="period-selector" onchange="swapImage4()" style="margin: 8px 0; width: 20%;">
+  <option value="assets/gender_box_period_0.png">1915-1953</option>
+  <option value="assets/gender_box_period_1.png">1953-1973</option>
+  <option value="assets/gender_box_period_2.png">1973-1985</option>
+  <option value="assets/gender_box_period_3.png">1985-1990</option>
+  <option value="assets/gender_box_period_4.png">1990-1995</option>
+  <option value="assets/gender_box_period_5.png">1995-1999</option>
+  <option value="assets/gender_box_period_6.png">1999-2003</option>
+  <option value="assets/gender_box_period_7.png">2003-2006</option>
+  <option value="assets/gender_box_period_8.png">2006-2009</option>
+  <option value="assets/gender_box_period_9.png">2009-2012</option>
+</select>
+
+<img id="density_gender_box_periods_img" src="assets/gender_box_period_0.png" alt="Density Plot Gender">
+
 <iframe src="assets/gender_boxoffice_timeperiods.html" width="750px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 #### Other results
