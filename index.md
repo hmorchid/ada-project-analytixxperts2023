@@ -31,7 +31,7 @@ We find that **D1 = 0.8** is significantly greater than **D2 = 0.02**. This resu
 
 We used this index to analyze the films in our dataset, leading to the creation of the bar plots displayed below:
 
-<iframe src="assets/distrib_diversity_3.html" width="800px" height="550px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="assets/distrib_diversity_3.html" width="800px" height="500px" frameborder="0" position="relative">Genre plot</iframe>
 
 We observe for Ethnic Diversity that :
 * A considerable number of local movies feature actors exclusively from the same country or ethnicity, which accounts for the noticeable instances of a 0 diversity score.
