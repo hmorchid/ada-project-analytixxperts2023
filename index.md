@@ -7,7 +7,7 @@ share-img: /assets/fond_ada_site.png
 use-site-title: true
 ---
 
-The topic of diversity is gaining increasing attention nowadays. Many studies, like [this McKinsey & Company report](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters), affirm that diversity is not just a buzzword but a pivotal aspect of business success. We would like to assess whether this phenomenon is also applicable to the movie industry.  After reading this report, a prominent producer at 20th Century, one of Hollywood's most renowned film studios, began to seriously consider that diversity in its castings might be the key to improving performance of its future productions. He decided to contact us to know if we can prove the point that Mckinsey & Company is making in its report. 
+The topic of diversity is gaining increasing attention nowadays. Many studies, like [this McKinsey & Company report](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters), affirm that diversity is not just a buzzword but a pivotal aspect of business success. After reading this report, a prominent producer at 20th Century, one of Hollywood's most renowned film studios, began to seriously consider that diversity in its castings might be the key to improving performance of its future productions. He decided to contact us to know if we can prove the point that Mckinsey & Company is making in its report. 
 
 ## Introduction
 Lights, Camera, Action! Join us on this journey as we unravel the data story behind the impact diversity in films' success. We will dissect this relationship by analyzing a variety of films across genres, from blockbuster hits to indie gems, our research will shed light on whether films with diverse casts resonate more profoundly with audiences and critics alike. 
@@ -23,14 +23,14 @@ This means that if we compare two scenarios:
 - Movie 1: 20% representation for each of 5 ethnicities.
 - Movie 2: 99% representation of one ethnicity, with 100 different ethnicities comprising the remaining 1%.
 
-We find that **D1 = 0.8** is significantly greater than **D2 = 0.02**. This result is coherent as Movie 1 appears to have a more diverse cast, even though Movie 2 includes a greater number of ethnicities.
+We find that D1 = 0.8 is significantly greater than D2 = 0.02. This result is coherent as Movie 1 appears to have a more diverse cast, even though Movie 2 includes a greater number of ethnicities.
 
 <details>
   <summary> Mathematics for nerds 🤓</summary>
   
   The Simpson Diversity Index is calculated as follows :
 
-$D = 1 - \sum_{k=1}^{K} \left(\frac{n_k}{N}\right)^2$
+<img align="left" width="350" src="simspon.png">
 
 Where : 
 - **N** represents the total number of units in the population
@@ -134,8 +134,7 @@ When you click the "After" button, you'll see the results post-matching. Now, th
 
 #### Impact of Ethnic Diversity on Box Office
 
-<img align="left" width="350" src="assets/density_global.png">                                                      
-<img align="center" width="350" src="assets/regression_global.png">
+<img align="left" width="350" src="assets/density_global.png">  <img align="center" width="350" src="assets/regression_global.png">
 
 From the distribution above and and the statistical tests we ran, we saw that the relationship between a movie's box office performance and the fact that it received treatment (having a diverse cast), is a positive correlation. It indicates that having a diverse cast in terms of ethnicity brings a better performance in terms of box office.
 
